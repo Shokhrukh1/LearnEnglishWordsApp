@@ -12,7 +12,7 @@ Lombok
 Firebase Firestore  
 Firebase Auth  
 Firebase Storage  
-RxFirbase  
+RxFirebase  
 CircleImageView  
 Facebook SDK  
 VK SDK  
