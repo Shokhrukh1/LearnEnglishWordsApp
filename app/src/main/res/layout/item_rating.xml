@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/neo_sans_pro_medium"
+        android:textSize="@dimen/_16ssp"
+        tools:text="100" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/neo_sans_pro_medium"
+        android:maxLines="1"
+        android:singleLine="true"
+        tools:text="Ivan Ivanov"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/neo_sans_pro_medium"
+        android:gravity="end"
+        tools:text="99999"
+        android:textSize="@dimen/_16ssp" />
+</LinearLayout>

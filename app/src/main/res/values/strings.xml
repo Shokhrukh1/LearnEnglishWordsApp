@@ -1,0 +1,146 @@
+<resources>
+    <integer name="com_vk_sdk_AppId"></integer>
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme"></string>
+    <string name="google_web_client_id"></string>
+    <string name="app_name">EnglishWordsApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="english_words">Анлийские\nслова</string>
+    <string name="russian_words">Русские\nслова</string>
+    <string name="tournament">Турнир</string>
+    <string name="guess_words">Отгадывать слова</string>
+    <string name="play_online">Играть онлайн</string>
+    <string name="about">О приложении</string>
+    <string name="feedback">Оставить отзыв</string>
+    <string name="invite_friend">Пригласить друга</string>
+    <string name="your_balance">Ваш баланс</string>
+    <string name="best_players">Список лучших игроков</string>
+    <string name="cat_english">Котинглиш</string>
+    <string name="person">Человек</string>
+    <string name="check">Проверить</string>
+    <string name="earn_with_us">Зарабатывай с нами</string>
+    <string name="find_the_right_translation">Найдите верный перевод</string>
+    <string name="registration">Регистрация</string>
+    <string name="email">E-mail</string>
+    <string name="name">Имя</string>
+    <string name="registration_describe">Регистрация позволит Вам приглашать друзей и участвовать в турнире</string>
+    <string name="name_example">Например, Иван Иванов</string>
+    <string name="email_example">Например, ivanov@gmail.com</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="do_you_already_have_an_account">У вас уже есть аккаунт?</string>
+    <string name="sign_in">Войти</string>
+    <string name="login_via_social_network">Войти через соц сети</string>
+    <string name="sign_up_via_social_network">Регистрация через соц сети</string>
+    <string name="edit_photo">Изменить фото</string>
+    <string name="edit">Изменить</string>
+    <string name="add_link">Добавить ссылку</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="my_rating">Мой рейтинг</string>
+    <string name="your_social_networks">Ваши соц сети</string>
+    <string name="your_city">Ваш город</string>
+    <string name="example_krasnoyarsk">Например, Красноярск</string>
+    <string name="next">Далее</string>
+    <string name="about_description">Котинглиш.\n\nИгра на знание английского языка.\nУчите английский в игровой форме. Наш Кот заставит вас выучить инглиш!\n\nИграйте в свободное время, и очень скоро вы пополните словарный запас и повысите свой языковой уровень.\n\nУчаствуйте в турнирах и повышайте свой рейтинг! Список лучших игроков ждет именно вас.</string>
+    <string name="correct_answer">Правильный перевод:</string>
+    <string name="on_the_menu">В меню</string>
+    <string name="later">Позже</string>
+    <string name="it_is_time_to_create_a_profile">Пора создать профиль.</string>
+    <string name="create_account_describe">Создайте профиль, чтобы играть онлайн и зарабатывать рейтинг.</string>
+    <string name="create_account">Создать профиль</string>
+    <string name="your_result">Ваш результат:</string>
+    <string name="play_again">Играть ещё раз</string>
+    <string name="do_you_really_want_to_leave">Вы действительно хотите выйти?</string>
+    <string name="progress_of_this_level_will_not_be_saved">Прогресс данного уровня не будет сохранен</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="password">Пароль</string>
+    <string name="password_example">Например, kjsdjlfs</string>
+    <string name="type_correct_email_address">Введите корректный адрес электронной почты</string>
+    <string name="this_field_must_be_filled">Это поле должно быть заполнено</string>
+    <string name="minimum_number_of_characters_6">Минимальное количество символов: 6</string>
+    <string name="minimum_number_of_characters_2">Минимальное количество символов: 2</string>
+    <string name="registration_successful">Регистрация прошла успешно</string>
+    <string name="google_sign_in_error">Произошла ошибка при входе Google аккаунт</string>
+    <string name="sign_in_successful">Вы успешно вошли в систему</string>
+    <string name="save">Сохранить</string>
+    <string name="social_network_example">Например, vk.com/kotEnglish</string>
+    <string name="loading">Загрузка...</string>
+    <string name="log_out">Выйти из аккаунта</string>
+    <string name="select_app">Выберите приложение</string>
+    <string name="share_result">Поделится результатом</string>
+    <string name="find_opponent">Поиск соперника</string>
+    <string name="wait_opponent_result">Ждём результаты соперника</string>
+    <string name="opponent_result">Результат соперника</string>
+    <string name="share_text">%d/10 - мой результат в игре Котинглиш. Проверь себя.\n\n%s</string>
+    <string name="share_text_tournament">Мой результат в турнире в Котинглиш. Может поиграешь со мной?\n\n%s</string>
+    <string name="invite_friend_text">Приглашаю тебя в игру Котинглиш.\nИспользуй данный промокод %s и получи бонус.\n\n%s</string>
+    <string name="points">%s очков</string>
+    <string name="invite_text">Приглашаю тебя в игру Котинглиш\n\n%s</string>
+    <string name="rating">Рейтинг</string>
+    <string name="list_of_the_best_players">Список лучших игроков</string>
+    <string name="not_valid_login_or_password">Неверный логин или пароль</string>
+    <string name="start_game">Начать игру</string>
+    <string name="your_opponent">Ваш соперник:</string>
+    <string name="upload_photo_error">Ошибка загрузка фотографии</string>
+    <string name="guess_english_words_online">Отгадывать английские\nслова онлайн</string>
+    <string name="guess_russian_words_online">Отгадывать русские\nслова онлайн</string>
+    <string name="please_sign_in">Пройдите авторизацию</string>
+    <string name="earn_with_us_description">Приглашайте друзей и получайте деньги!</string>
+    <string name="your_invitation_code">Ваш пригласительный код:</string>
+    <string name="copy">Копировать</string>
+    <string name="promo_code">Промокод</string>
+    <string name="full_name">ФИО</string>
+    <string name="full_name_example">Например, Иван Иванов Иванович</string>
+    <string name="promo_code_example">Например, weg2g</string>
+    <string name="card_number">Номер карты</string>
+    <string name="card_number_example">Например, 9999 9999 9999 9999</string>
+    <string name="amount_example">Например, 100 ₽</string>
+    <string name="withdrawal">Вывод средств</string>
+    <string name="your_balance_with_colon">Ваш баланс:</string>
+    <string name="invite_your_friends_and_get_paid">Приглашайте друзей и получайте деньги!</string>
+    <string name="send_data">Отправить данные</string>
+    <string name="copied_to_clipboard">Скопировано в буфер</string>
+    <string name="amount_your_balance">Сумма (ваш баланс \</string>
+    <string name="amount_not_be_more_than_balance">Сумма которую вы вели не может быть больше чем баланс</string>
+    <string-array name="tournament_finish_words">
+        <item>Ничья.</item>
+        <item>Вы выиграли!</item>
+        <item>Вы проиграли.</item>
+    </string-array>
+    <string-array name="positive_cat_words">
+        <item>Действительно так!</item>
+        <item>Чудесно!</item>
+        <item>Блестяще!</item>
+        <item>Здорово!</item>
+        <item>Блеск!</item>
+        <item>Бесспорно!</item>
+        <item>Точно!</item>
+        <item>Наш человек!</item>
+        <item>Так держать!</item>
+        <item>Восхитительно!</item>
+        <item>Замуррчательно!</item>
+        <item>Класс!</item>
+        <item>Верно!</item>
+        <item>Правильно!</item>
+        <item>Молодец!</item>
+    </string-array>
+    <string-array name="negative_cat_words">
+        <item>Тебе нездоровится?</item>
+        <item>Шутишь?</item>
+        <item>А если подумать?</item>
+        <item>Включи мозг!</item>
+        <item>Какого чёрта?!</item>
+        <item>Одумайся!</item>
+        <item>Что за нелепость?</item>
+        <item>Нет, нет и нет!</item>
+        <item>Как ты мог?!</item>
+        <item>Как не стыдно?!</item>
+        <item>Я тебя кусь!!</item>
+    </string-array>
+    <string-array name="finish_words">
+        <item>!@#$%^&amp;1</item>
+        <item>Ты можешь лучше!</item>
+        <item>Превосходно!</item>
+    </string-array>
+</resources>

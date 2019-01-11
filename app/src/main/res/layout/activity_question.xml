@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp"
+    tools:context=".ui.activities.questionPage.QuestionActivity">
+
+    <include layout="@layout/progress_bar" />
+
+    <include layout="@layout/finish_page" />
+
+    <include layout="@layout/create_account" />
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:src="@drawable/ic_close" />
+
+            <include layout="@layout/level_progress" />
+        </LinearLayout>
+
+        <include layout="@layout/correct_answer" />
+
+        <include layout="@layout/incorrect_answer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:fontFamily="@font/neo_sans_pro_regular"
+            android:text="@string/find_the_right_translation"
+            android:textSize="@dimen/_20ssp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvWord"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#4d8cea"
+            app:cardCornerRadius="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/neo_sans_pro_bold"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_32ssp"
+                tools:text="Watermelon" />
+        </android.support.v7.widget.CardView>
+
+        <RadioGroup
+            android:id="@+id/rgAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlFirstRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_radio_button"
+                android:orientation="horizontal"
+                android:padding="@dimen/_14sdp">
+
+                <RadioButton
+                    android:id="@+id/rbFirst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:clickable="false"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvFirstAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/rbFirst"
+                    android:fontFamily="@font/neo_sans_pro_medium"
+                    android:gravity="center_vertical"
+                    app:autoSizeMaxTextSize="@dimen/_20ssp"
+                    app:autoSizeMinTextSize="@dimen/_16ssp"
+                    app:autoSizeTextType="uniform"
+                    tools:text="Арбуз" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlSecondRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/background_radio_button"
+                android:orientation="horizontal"
+                android:padding="@dimen/_14sdp">
+
+                <RadioButton
+                    android:id="@+id/rbSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:clickable="false"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvSecondAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/rbSecond"
+                    android:fontFamily="@font/neo_sans_pro_medium"
+                    android:gravity="center_vertical"
+                    app:autoSizeMaxTextSize="@dimen/_20ssp"
+                    app:autoSizeMinTextSize="@dimen/_16ssp"
+                    app:autoSizeTextType="uniform"
+                    tools:text="Дыня" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlThirdRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/background_radio_button"
+                android:orientation="horizontal"
+                android:padding="@dimen/_14sdp">
+
+                <RadioButton
+                    android:id="@+id/rbThird"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:clickable="false"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvThirdAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/rbThird"
+                    android:fontFamily="@font/neo_sans_pro_medium"
+                    android:gravity="center_vertical"
+                    app:autoSizeMaxTextSize="@dimen/_20ssp"
+                    app:autoSizeMinTextSize="@dimen/_16ssp"
+                    app:autoSizeTextType="uniform"
+                    tools:text="Тыква" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlFourthRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:background="@drawable/background_radio_button"
+                android:orientation="horizontal"
+                android:padding="@dimen/_14sdp">
+
+                <RadioButton
+                    android:id="@+id/rbFourth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:clickable="false"
+                    android:theme="@style/RadioButtonStyle" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tvFourthAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/rbFourth"
+                    android:fontFamily="@font/neo_sans_pro_medium"
+                    android:gravity="center_vertical"
+                    app:autoSizeMaxTextSize="@dimen/_20ssp"
+                    app:autoSizeMinTextSize="@dimen/_16ssp"
+                    app:autoSizeTextType="uniform"
+                    tools:text="Кокос" />
+            </RelativeLayout>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/background_button"
+            android:fontFamily="@font/neo_sans_pro_bold"
+            android:padding="@dimen/_16sdp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18ssp"
+            android:text="@string/check" />
+    </LinearLayout>
+</LinearLayout>
